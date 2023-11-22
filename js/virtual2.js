@@ -234,7 +234,7 @@ function optionSelected(answer) {
     //selected the correct answer
     for (let i = 0; i < allOptions; i++) {
       if (option_list.children[i].textContent == correctAns) {
-        option_list.children[i].setAttribute("class", "correct");
+        option_list.children[i].classList.add("correct");
       }
     }
 
