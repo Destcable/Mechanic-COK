@@ -48,6 +48,10 @@
 	    cursor: grab;
     }
     #makeMeDroppable { float: right; width: 300px; height: 300px; border: 1px solid #999; }
+    .img-container {
+        min-height: 100%;
+        min-width: 100%;
+    }
 </style>
 
 <style type="text/css">
@@ -69,7 +73,7 @@
                     
                 </div>
                 <div class="header-second_content">
-                    <h3 class="subtitle_header">Выбор оборудования, инструмента и технологической оснастки</h3>
+                    <h3 class="subtitle_header">Алгоритм поиска неисправностей</h3>
                  </div>
             </div>
         </div>
@@ -101,14 +105,20 @@
                     </div>
                     
                     <div class="flex container-filling align-center justify-center">
-                        <div class="img-exercise big-img"><img src="" alt="" class="img-exercise1 "></div>
-                        <div class="flex col option-list ">
+                        <div class="img-exercise1 big-img"><img src="" alt="" class="img-exercise1 "></div>
+                        <div class="flex col option-list">
 
                         </div>
                         <div class="dragContainer"></div>
-                        
                     </div>
-                       
+                    
+                    <div class="flex container-filling align-center justify-center">
+                        <span style="font-weight:normal">
+                            <div class="img-container" style="text-align:center">
+                            </div>
+                        </span>
+                    </div>
+
                     </div>
                      <!-- <div class="arrows"><button class="hide" id="next-button"><img src="../img/ArrowRight.png" alt="ArrowRight"></button></div></div> -->
                     <div class="arrows1"><button class="prevbutton"><img src="../img/ArrowLeft.png"></button><button id="next-button"><img src="../img/ArrowRight.png" alt="ArrowRight"></button></div>
@@ -130,7 +140,7 @@
                       <div class="flex center-results col mt-100 align-center justify-center">
                      
                       <p class="text-center">Вы завершили прохождение виртуального тренажера</p>
-                      <p class="text-center"><b><a href="../index.html">Нажмите, чтобы вернуться на главную</a></b></p>
+                      <p class="text-center"><b><a href="../index.html" style="text-decoration: none; color: inherit;">Нажмите, чтобы вернуться на главную</a></b></p>
                         </div>
           </div>
             
@@ -152,30 +162,30 @@
 
 <!-- modal -->
 <div id="ex1" class="modal">
-    <p class="text-zadanie_1 mb-5">Федеральный государственный образовательный стандарт среднего профессионального
+    <p class="text-zadanie_1" style="margin: 10px auto 5px; font-family: 'Montserrat', sans-serif;">Федеральный государственный образовательный стандарт среднего профессионального
         образования по специальности 15.02.16</p>
-    <p class="mt-10">Технология машиностроения, утвержден Приказом Минпросвещения России от 14 июня 2022 г. № 444</p>
-    <p class="text-zadanie_1 mb-5">ПОП Профессионалитета</p>
-    <p class="mt-10">15.02.16 Технология машиностроения</p>
-    <p class="text-zadanie_1 mb-5">ПМ. 01</p>
-    <p class="mt-10">Разработка технологических процессов изготовления деталей машин</p>
-    <p class="text-zadanie_1 mt-20 mb-5">МДК 01.01</p>
-    <p class="mt-10"> Разработка технологических процессов изготовления деталей машин с применением систем
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;">Технология машиностроения, утвержден Приказом Минпросвещения России от 14 июня 2022 г. № 444</p>
+    <p class="text-zadanie_1" style="margin: 10px auto 5px; font-family: 'Montserrat', sans-serif;">ПОП Профессионалитета</p>
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;">15.02.16 Технология машиностроения</p>
+    <p class="text-zadanie_1" style="margin: 10px auto 5px; font-family: 'Montserrat', sans-serif;">ПМ. 01</p>
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;">Разработка технологических процессов изготовления деталей машин</p>
+    <p class="text-zadanie_1" style="margin: 10px auto 5px; font-family: 'Montserrat', sans-serif;">МДК 01.01</p>
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;"> Разработка технологических процессов изготовления деталей машин с применением систем
         автоматизированного проектирования</p>
-    <p class="text-zadanie_1 mt-20 mb-5">Раздел</p>
-    <p class="mt-10">Технологические процессы изготовления деталей машин </p>
-    <p class="text-zadanie_1 mt-20 mb-5">Тема</p>
-    <p class="mt-10">Выбор оборудования, инструмента и технологической оснастки</p>
+    <p class="text-zadanie_1" style="margin: 10px auto 5px; font-family: 'Montserrat', sans-serif;">Раздел</p>
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;">Технологические процессы изготовления деталей машин </p>
+    <p class="text-zadanie_1" style="margin: 10px auto 5px; font-family: 'Montserrat', sans-serif;">Тема</p>
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;">Выбор оборудования, инструмента и технологической оснастки</p>
 
 </div>
 <div id="ex2" class="modal">
-    <p class="text-zadanie_1">Ключевые слова</p>
-    <p class="mt-10"><b>Оборудование</b> - любое необходимое производству машины или приборы.</p>
-    <p class="mt-10"><b>Технологическая оснастка</b> - средства технологического оснащения, дополняющие технологическое
+    <p class="text-zadanie_1" style="font-family: 'Montserrat', sans-serif;">Ключевые слова</p>
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;"><b>Оборудование</b> - любое необходимое производству машины или приборы.</p>
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;"><b>Технологическая оснастка</b> - средства технологического оснащения, дополняющие технологическое
         оборудование, для выполненияопределенной части технологического процесса.</p>
-    <p class="mt-10"><b>Измерительный инструмент</b> - специальное устройство для точного определения размеров, а также
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;"><b>Измерительный инструмент</b> - специальное устройство для точного определения размеров, а также
         других геометрических характеристик деталей и предметов.</p>
-    <p class="mt-10"><b>Станочные приспособления</b> - дополнительные оборудования к металлообрабатывающему станку,
+    <p class="mt-10" style="font-family: 'Montserrat', sans-serif;"><b>Станочные приспособления</b> - дополнительные оборудования к металлообрабатывающему станку,
         предназначенные для закрепления в нем обрабатываемой заготовки и надежной связи его со станком.</p>
 </div>
 
